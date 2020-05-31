@@ -1,0 +1,17 @@
+{
+  "name": "learn-typescript",
+  "version": "0.0.1",
+  "description": "Tyring Typescript for beginner",
+  "main": "app.ts",
+  "repository": "https://github.com/zakirkun/learn-typescript",
+  "author": "Muhammad Zakir Ramadhan <coder.zakir@hotmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "scripts": {
+    "tsc":"rm -rf build/ && tsc",
+    "ts":"rm -rf build/ && tsc -w"
+  }
+}
